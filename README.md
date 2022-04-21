@@ -10,4 +10,4 @@ Instantiate using constructor by passing spectrum wavelength and intensity data.
 ## Examples
 Can be used with automated formulation and spectroscopy and Bayesian optimization to optimize a dye mixture to color match a target color by minimizing distance in Lab space. An example of an optimization campaign to match Pantone 17-3938 using red, green, and blue aqueous dyes is shown below. Automation was carried out using my [Lab Automation framework](https://github.com/JustinJKwok/Lab-Automation) in conjuction with scikit-optimize Bayesian optimizer.
 
-![dye optimization](docs/dye_opt.png)
+![dye optimization](docs/dye_opt.PNG)
