@@ -8,6 +8,8 @@ SpectrumColor loads standard observer color matching functions and standard illu
 Instantiate using constructor by passing spectrum wavelength and intensity data. Alternatively use classmethod .from_file(...) to instantiate using a data file.
 
 ## Examples
-Can be used with automated formulation and spectroscopy combined with Bayesian optimization to optimize a dye mixture in order to color match a target color by minimizing distance in Lab space. An example of an optimization campaign to match Pantone 17-3938 using red, green, and blue aqueous dyes is shown below. Automation was carried out using my [Lab Automation framework](https://github.com/JustinJKwok/Lab-Automation) in conjuction with scikit-optimize Bayesian optimizer.
+Can be used with automated formulation and spectroscopy combined with Bayesian optimization to optimize a dye mixture in order to color match a target color by minimizing distance in Lab space. 
+
+An example of an optimization campaign to match Pantone 17-3938 using red, green, and blue aqueous dyes is shown below. Automation was carried out using my [Lab Automation framework](https://github.com/JustinJKwok/Lab-Automation) in conjuction with scikit-optimize Bayesian optimizer.
 
 ![dye optimization](docs/dye_opt.PNG)
